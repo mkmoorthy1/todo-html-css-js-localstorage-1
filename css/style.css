@@ -43,3 +43,37 @@
             width: 25%;
             border-radius: 10px;
         }
+        
+        .todo-box {
+            list-style: none;
+        }
+        
+        .todo-box li {
+            margin: 20px 15px;
+            padding: 8px;
+            background-color: #ff4c30;
+            border-radius: 10px;
+            color: #f4b575;
+            font-weight: bold;
+            text-align: justify;
+            position: relative;
+        }
+        
+        .fa-trash-can {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            color: #fff;
+        }
+        
+        .fa-circle-check {
+            position: absolute;
+            right: 40px;
+            top: 10px;
+            color: #fff;
+        }
+        
+        .completed {
+            text-decoration: line-through;
+            color: #fff;
+        }
